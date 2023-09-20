@@ -160,12 +160,13 @@ body {
 
 .cta-action {
     display: flex;
-    height: 10vh;
-    margin: 50px 400px 50px 400px;
+    height: 15vh;
+    margin: 80px 400px 80px 400px;
     background-color: #3882F6;
-    padding: 10px 75px 10px 75px;
+    padding: 5px 60px 5px 60px;
     justify-content: space-between;
     align-items: center;
+    border-radius: 10px;
 }
 
 #first {
