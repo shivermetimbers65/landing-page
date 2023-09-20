@@ -50,7 +50,7 @@ body {
     flex-direction: column;
     justify-content: space-around;
     flex-shrink: 0;
-    height: 200px;
+    height: 250px;
 }
 
 .para.one {
@@ -65,13 +65,23 @@ body {
     margin: 0;
     font-size: 18px;
     color: #E5E7EB;
-    width: 400px;
+    width: 450px;
     overflow-wrap: break-word;
+}
+
+.info-section button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    border: 0;
+    padding: 7px;
+    width: 100px;
 }
 
 .image-section img{
     display: flex;
     flex-shrink: 0;
     height: auto;
-    width: 400px;
+    width: 500px;
 }
