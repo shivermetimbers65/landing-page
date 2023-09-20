@@ -131,3 +131,61 @@ body {
     color: #797979;
     text-align: center;
 }
+
+/* Quote section CSS */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    height: 40vh;
+    padding: 20px 400px 20px 400px;
+    justify-content: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.quote-author {
+    color: #1F2937;
+    font-weight: 700;
+    text-align: end;
+}
+
+/* CTA Section CSS */
+
+.cta-action {
+    display: flex;
+    height: 10vh;
+    margin: 50px 400px 50px 400px;
+    background-color: #3882F6;
+    padding: 10px 75px 10px 75px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#first {
+    font-weight: 800;
+    font-size: 18px;
+    color: #F9FAF8;
+    margin: 0px 0px 5px 0px;
+}
+
+#second {
+    margin: 0;
+    color: #F9FAF8;
+}
+
+.cta-action button{
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 7px;
+    padding: 5px 30px 5px 30px;
+}
+
+/* Footer Section CSS */
