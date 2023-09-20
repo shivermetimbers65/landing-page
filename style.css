@@ -90,7 +90,11 @@ body {
 /* Random Information Section CSS */
 
 .random-info {
-    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40vh;
+    margin: 20px;
 }
 
 .header-text {
@@ -104,9 +108,26 @@ body {
 .boxes {
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 100px;
 }
 
-.boxes img {
-    height: 100px;
-    width: 75px;
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+}
+
+.box img{
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+    height: 120px;
+    width: 120px;
+}
+
+.box p {
+    color: #797979;
+    text-align: center;
 }
