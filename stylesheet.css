@@ -52,7 +52,7 @@ ul {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
-    margin-bottom: 40px;
+    margin-bottom: 5px;
 }
 
 .left p {
@@ -89,7 +89,7 @@ ul {
 .random-info {
     display: flex;
     flex-direction: column;
-    padding: 50px;
+    padding: 100px 300px 100px 300px;
 
 }
 
@@ -110,11 +110,11 @@ ul {
     flex-direction: column;
     justify-content: center;
     margin: 40px;
-    max-width: 250px;
+    max-width: 200px;
 }
 
 .image img {
-    height: 100px;
+    height: 125px;
     width: auto;
     border: 5px solid #3882F6;
     border-radius: 16px;
@@ -129,18 +129,40 @@ ul {
 .quote {
     display: flex;
     height: 500px;
-    padding: 100px 300px 100px 300px;
+    padding: 50px 410px 50px 410px;
+    background-color: #E5E7EB;
     flex-direction: column;
+    justify-content: center;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 100;
+}
+
+.quote h4 {
+    text-align: end;
+    margin-right: 40px;
+    color: #1F2937;
+    font-weight: bold;
 }
 
 /* CTA Section */
 
 .cta {
-
+    display: flex;
+    margin: 300px;
+    padding: 50px;
+    background-color: #3882F6;
+    border-radius: 20px;
+    color: #F9FAF8;
 }
 
 /* Footer Section */
 
 .footer {
-
+    flex-direction: column;
+    align-self: flex-end;
 }
