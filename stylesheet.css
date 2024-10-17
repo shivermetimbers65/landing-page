@@ -4,6 +4,12 @@ body {
     font-family: "Roboto", sans-serif;
     width: 100%;
     flex-direction: column;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
 }
 
 /* Header CSS Section */
@@ -11,13 +17,70 @@ body {
 .header {
     display: flex; 
     justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px 80px 200px;
+    background-color: #1F2937;
+}
+
+.header h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links {
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 /* Mid CSS Section */
 
 .top-mid {
     display: flex;
+    background-color: #1F2937;
+    padding: 80px 200px 200px 200px;
+    justify-content: space-between;
 }
+
+.left {
+    max-width: 500px;
+}
+
+.left h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+.left p {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-wrap: wrap;
+    max-width: ;
+    margin-bottom: 40px;
+}
+
+.sign-up {
+    width: 100px;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 0;
+}
+
+.right {
+    margin: 20px;
+    height: 100%;
+    text-align: center;
+    align-self: center;
+    background-color: #8493a8;
+}
+
+
+/* Random Info Section */
 
 .random-info {
     display: flex;
