@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    height: 400vh;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    flex-direction: column;
+}
+
+/* Header CSS Section */
+
+.header {
+    display: flex; 
+    justify-content: space-between;
+}
+
+/* Mid CSS Section */
+
+.top-mid {
+    display: flex;
+}
+
+.random-info {
+    display: flex;
+}
+
+.quote {
+
+}
+
+.cta {
+
+}
+
+/* Footer Section */
+
+.footer {
+
+}
